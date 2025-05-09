@@ -1,8 +1,8 @@
 #include <stdio.h>
-    #include <math.h>
-    const double PI=3.1415926535897;
+#include <math.h>
     
     int main() {
+    const double PI=3.1415926535897;
     double a,b,c;
     
     while(scanf("%lf %lf %lf",&a,&b,&c)==3){
