@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 int dividePor2(char num[]) {
     int len = strlen(num);
     int resto = 0;
@@ -11,16 +12,21 @@ int dividePor2(char num[]) {
     }
 
     int i = 0;
+    
     while (num[i] == '0' && num[i + 1] != '\0') i++;
+    
     if (i > 0) memmove(num, num + i, strlen(num) - i + 1);
 
     return resto;
 }
 
 int contarBits1(char num[]) {
+    
     int count = 0;
+    
     while (!(strlen(num) == 1 && num[0] == '0')) {
         int bit = dividePor2(num);
+        
         if (bit == 1) count++;
     }
     return count;
@@ -28,6 +34,7 @@ int contarBits1(char num[]) {
 
 int main() {
     int T;
+    
     scanf("%d", &T);
 
     while (T--) {
@@ -35,6 +42,7 @@ int main() {
         scanf("%s", num);
 
         int ones = contarBits1(num);
+        
         printf("%d\n", ones);
     }
 
