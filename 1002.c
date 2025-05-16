@@ -4,7 +4,7 @@ int main() {
     double raio, area;
     const double pi = 3.14159;
  
-    scanf("%lf", &raio);
+    scanf("%f", &raio);
  
     area = pi * raio * raio;
  
