@@ -5,7 +5,7 @@ int main() {
     char T;         
     double M[12][12], resultado = 0.0;
 
-    // Leitura da linha L e da operação T
+    
     scanf("%d", &L);
     scanf(" %c", &T);  
 
