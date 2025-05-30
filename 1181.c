@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &L);
     scanf(" %c", &T);  
 
-    // Leitura da matriz
+    
     for (int i = 0; i < 12; i++) {
         for (int j = 0; j < 12; j++) {
             scanf("%lf", &M[i][j]);
