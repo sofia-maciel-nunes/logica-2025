@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int ehVogal(char c) {
+int ehvogal(char c) {
     return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u';
 }
 
@@ -12,7 +12,7 @@ int main() {
     scanf("%s", risada);
 
     for (i = 0; risada[i] != '\0'; i++) {
-        if (ehVogal(risada[i])) {
+        if (ehvogal(risada[i])) {
             vogais[j++] = risada[i];
         }
     }
