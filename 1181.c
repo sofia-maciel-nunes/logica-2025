@@ -4,11 +4,9 @@ int main() {
     int L;          
     char T;         
     double M[12][12], resultado = 0.0;
-
     
     scanf("%d", &L);
     scanf(" %c", &T);  
-
     
     for (int i = 0; i < 12; i++) {
         for (int j = 0; j < 12; j++) {
