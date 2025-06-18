@@ -2,6 +2,7 @@
 
 int main() {
     int N;
+    
     scanf("%d", &N);
 
     int X[N];
