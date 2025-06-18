@@ -3,10 +3,12 @@
 
 int main() {
     int N;
+    
     scanf("%d", &N);
 
     while (N--) {
         int x, y;
+        
         scanf("%d %d", &x, &y);
 
         int rafael = (3 * x) * (3 * x) + y * y;
