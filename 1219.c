@@ -15,7 +15,6 @@ int main() {
         double area_incircle=PI*r*r;
         double area_circumcircle=PI*R*R;
         
-        
         double amarelo = area_circumcircle-area_triangle;
         double azul = area_triangle-area_incircle;
         double vermelho = area_incircle;
@@ -23,6 +22,6 @@ int main() {
         printf("%.4lf %.4lf %.4lf\n", amarelo, azul, vermelho);
         
     }
-  
+    
     return 0;
 }
