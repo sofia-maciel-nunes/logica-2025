@@ -18,10 +18,10 @@ int main() {
             char problema;
             int tempo;
             char resultado[10];
+            
             scanf(" %c %d %s", &problema, &tempo, resultado);
 
             int idx = problema - 'A';
-
             
             if (tempo_correct[idx] != -1) {
                 continue;
