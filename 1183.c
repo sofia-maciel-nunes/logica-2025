@@ -6,14 +6,12 @@ int main() {
     int contador = 0;
 
     scanf(" %c", &O); 
-
  
     for (int i = 0; i < 12; i++) {
         for (int j = 0; j < 12; j++) {
             scanf("%lf", &M[i][j]);
         }
     }
-
   
     for (int i = 0; i < 12; i++) {
         for (int j = i + 1; j < 12; j++) {  
@@ -21,13 +19,11 @@ int main() {
             contador++;
         }
     }
-
     
     if (O == 'M') {
         resultado /= contador;
     }
 
-  
     printf("%.1lf\n", resultado);
 
     return 0;
