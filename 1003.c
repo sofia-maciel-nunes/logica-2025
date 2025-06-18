@@ -4,7 +4,8 @@ int main() {
     int A, B;
     int soma;
 
-    printf("Digite dois números inteiros: ");
+    printf("digite dois números inteiros: ");
+    
     scanf("%d %d", &A, &B);
 
     soma = A + B;
