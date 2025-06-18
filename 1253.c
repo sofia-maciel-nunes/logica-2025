@@ -14,7 +14,9 @@ void decodificar(char *mensagem, int deslocamento) {
 
 int main() {
     int N;
+
     scanf("%d", &N);
+    
     getchar(); 
 
     for (int i = 0; i < N; i++) {
@@ -25,6 +27,7 @@ int main() {
         mensagem[strcspn(mensagem, "\n")] = '\0'; 
 
         scanf("%d", &deslocamento);
+        
         getchar(); 
 
         decodificar(mensagem, deslocamento);
