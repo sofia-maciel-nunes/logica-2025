@@ -6,6 +6,7 @@ int main() {
     int N;
     
     scanf("%d", &N);
+    
     while (getchar() != '\n');
     
     for (int i = 0; i < N; i++) {
