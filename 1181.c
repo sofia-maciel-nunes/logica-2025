@@ -13,12 +13,10 @@ int main() {
             scanf("%lf", &M[i][j]);
         }
     }
-
    
     for (int j = 0; j < 12; j++) {
         resultado += M[L][j];
     }
-
    
     if (T == 'M') {
         resultado /= 12.0;
