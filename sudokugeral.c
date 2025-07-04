@@ -1,4 +1,4 @@
-// fiz em dupla com a Julia Dos Santos Mota
+// feito em dupla com Julia Dos Santos Mota
 
 #include <stdio.h>
 #include <string.h>
