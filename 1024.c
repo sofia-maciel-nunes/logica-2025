@@ -50,7 +50,6 @@ int main() {
         char linha[1001];
         fgets(linha, sizeof(linha), stdin);
         
-        
         linha[strcspn(linha, "\n")] = '\0';
         
         criptografar(linha);
