@@ -1,4 +1,5 @@
 //feito em dupla com Julia dos Santos Mota
+
 #include <stdio.h>
 
 int tabuleiro[9][9];
