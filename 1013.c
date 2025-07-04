@@ -10,7 +10,7 @@ int main() {
     maiorXY = (x + y + abs(x - y)) / 2;
     maior = ( (maiorXY) + z + abs((maiorXY) - z)) / 2;
 
-    printf("%d eh o maior\n", maior);
+    printf("%d o maior\n", maior);
  
     return 0;
 }
