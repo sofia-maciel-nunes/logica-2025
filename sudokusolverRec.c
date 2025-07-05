@@ -22,7 +22,6 @@ int verificarNumero(int linha, int coluna, int numero) {
         }
     }
     
-    // Verificar coluna
     for (int i = 0; i < 9; i++) {
         if (tabuleiro[i][coluna] == numero) {
             return 0;
